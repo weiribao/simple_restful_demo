@@ -1,0 +1,19 @@
+{
+  "name": "simple restful demo",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "3.0.0beta7",
+    "request": "*",
+    "async": "*",
+    "mongodb": "*"
+  },
+  "description": "ERROR: No README.md file found!",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "",
+  "author": "ribao wei",
+  "license": "BSD"
+}

@@ -1,0 +1,13 @@
+A few notes:
+
+1. To run the server: 
+	
+	sudo npm install && node app.js
+
+2. To run the test (assuming the server is up):
+
+	node test.js
+
+3. The description doesn't describe how the server should behave when duplicate object is POST/PUT. Currently it creates duplicate objects in the database.
+
+4. I intentionally choose not to use a testing framework to make the code easier to read. 
