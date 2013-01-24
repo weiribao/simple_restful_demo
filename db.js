@@ -3,7 +3,7 @@ var collection;
 
 exports.run = function(callback){
 	var mongoServer = new mongo.Server("localhost", 27017, {auto_reconnect: true}),
-	db = new mongo.Db("dscs_assignment", mongoServer, {safe: false});
+	db = new mongo.Db("test_db", mongoServer, {safe: false});
 	db.open(function(err, db){
 		if(!err){
 			db.collection("example", function(err, col){
